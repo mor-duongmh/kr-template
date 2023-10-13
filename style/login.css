@@ -60,6 +60,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+input,
+textarea {
+  font-family: "Pretendard";
+}
 .d-flex {
   display: flex;
 }
@@ -85,6 +89,7 @@ a {
 .frame-3 {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .frame-3 .line {
   width: 1px;
@@ -104,6 +109,7 @@ a {
     ),
     url("./image/background-1.jpeg");
   background-size: cover;
+  position: relative;
 }
 .main-0 {
   padding: 237px 467px;
@@ -114,6 +120,7 @@ a {
     ),
     url("./image/background-2.jpeg");
   background-size: cover;
+  position: relative;
 }
 .main-1 {
   padding: 114px 515px;
@@ -122,6 +129,7 @@ a {
   width: 100%;
   position: absolute;
   height: -webkit-fill-available;
+  position: relative;
 }
 .main-2 {
   padding: 72px 200px 132px 200px;
@@ -129,6 +137,7 @@ a {
   justify-content: center;
   width: 100%;
   height: -webkit-fill-available;
+  position: relative;
 }
 .main-3 {
   padding: 72px 200px 132px 200px;
@@ -136,6 +145,40 @@ a {
   justify-content: center;
   width: 100%;
   height: -webkit-fill-available;
+  position: relative;
+}
+#option {
+  position: absolute;
+  top: 220%;
+  left: 0;
+  z-index: 999;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(95, 95, 95, 0.06);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  width: 136px;
+}
+#option div {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#option div:nth-child(2) {
+  border: 1px solid #b9e0e0;
+  border-right: unset;
+  border-left: unset;
 }
 .bread-crumb {
   display: flex;
