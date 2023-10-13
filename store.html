@@ -206,7 +206,7 @@
           >
             <path d="M1 0V10" stroke="black" />
           </svg>
-          <span>내 장바구니</span>
+          <span class="main-header-text">내 장바구니</span>
         </div>
         <div class="box-title">
           <div class="box-title_title">
@@ -419,5 +419,21 @@
         </div>
       </div>
     </div>
+    <script>
+      var x = document.getElementsByClassName("tab");
+      for (var i = 0; i < x.length; i++) {
+        x[i].addEventListener(
+          "click",
+          function () {
+            var selectedEl = document.querySelector(".highlight");
+            if (selectedEl) {
+              selectedEl.classList.remove("highlight");
+            }
+            this.classList.add("highlight");
+          },
+          false
+        );
+      }
+    </script>
   </body>
 </html>

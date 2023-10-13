@@ -206,7 +206,7 @@
           >
             <path d="M1 0V10" stroke="black" />
           </svg>
-          <span>주문현황 확인</span>
+          <span class="main-header-text">주문현황 확인</span>
         </div>
         <div class="box-title">
           <div class="box-title_title">
@@ -239,8 +239,8 @@
         </div>
         <span class="title-table">주문 상품 정보</span>
         <div class="tab-container">
-          <div class="tab highlight"><span>주문내역조회</span></div>
-          <div class="tab"><span>과거주문내역</span></div>
+          <div class="tab highlight" id="tab"><span>주문내역조회</span></div>
+          <div class="tab" id="tab"><span>과거주문내역</span></div>
         </div>
         <div class="table">
           <div class="line">
@@ -427,5 +427,21 @@
         </div>
       </div>
     </div>
+    <script>
+      var x = document.getElementsByClassName("tab");
+      for (var i = 0; i < x.length; i++) {
+        x[i].addEventListener(
+          "click",
+          function () {
+            var selectedEl = document.querySelector(".highlight");
+            if (selectedEl) {
+              selectedEl.classList.remove("highlight");
+            }
+            this.classList.add("highlight");
+          },
+          false
+        );
+      }
+    </script>
   </body>
 </html>
