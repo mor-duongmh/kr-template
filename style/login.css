@@ -129,7 +129,6 @@ textarea {
   width: 100%;
   position: absolute;
   height: -webkit-fill-available;
-  position: relative;
 }
 .main-2 {
   padding: 72px 200px 132px 200px;
@@ -150,7 +149,7 @@ textarea {
 #option {
   position: absolute;
   top: 220%;
-  left: 0;
+  right: 0;
   z-index: 999;
   border-radius: 4px;
   background: #fff;
