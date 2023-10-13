@@ -3,46 +3,55 @@
   src: url("./font/Pretendard-Thin.otf") format("opentype");
   font-weight: 100;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-ExtraLight.otf") format("opentype");
   font-weight: 200;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Light.otf") format("opentype");
   font-weight: 300;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Regular.otf") format("opentype");
   font-weight: 400;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Medium.otf") format("opentype");
   font-weight: 500;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-SemiBold.otf") format("opentype");
   font-weight: 600;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Bold.otf") format("opentype");
   font-weight: 700;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-ExtraBold.otf") format("opentype");
   font-weight: 800;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Black.otf") format("opentype");
   font-weight: 900;
 }
+
 .pc,
 .pc * {
   box-sizing: border-box;
@@ -57,6 +66,15 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+}
+
+.vector-77 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 2px;
+  background-color: #ffffff;
+  width: 100%;
+  margin: auto;
 }
 
 .pc2 {
@@ -84,6 +102,7 @@
   position: absolute;
   left: 200px;
   top: 45.74px;
+  cursor: pointer;
 }
 
 .group2 {
@@ -122,22 +141,36 @@
   position: relative;
 }
 
+.huge-icon-interface-outline-share {
+  cursor: pointer;
+}
+
 .huge-icon-interface-outline-user {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
 }
 
+.class1 {
+  color: #E95390;
+  font-family: "Pretendard";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
 .dot {
   color: #e95390;
   text-align: left;
-  font: 400 14px "Pretendard", sans-serif;
+  font: 400 14px "Pretendard";
   position: relative;
 }
 
 .class4 {
   color: #000;
-  font-family: Pretendard;
+  font-family: "Pretendard";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -176,15 +209,22 @@
 
 .image-2 {
   border-width: 2px;
-  width: calc(50vw);
+  width: 415px;
   aspect-ratio: 415/482;
+  object-fit: cover;
   position: relative;
+}
+
+.frame-96 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .frame-110 {
   display: flex;
   flex-direction: column;
-  gap: 58px;
+
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
@@ -211,7 +251,7 @@
 .class3 {
   color: #000000;
   text-align: left;
-  font: 700 16px "Pretendard", sans-serif;
+  font: 700 16px "Pretendard";
   position: relative;
 }
 
@@ -238,14 +278,14 @@
 ._2-000-30-000 {
   color: #000000;
   text-align: left;
-  font: 400 14px "Pretendard", sans-serif;
+  font: 400 14px "Pretendard";
   position: relative;
 }
 
 .text-hong {
   color: #e95390;
   text-align: left;
-  font: 400 14px "Pretendard", sans-serif;
+  font: 400 14px "Pretendard";
   position: relative;
 }
 
@@ -298,6 +338,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  cursor: pointer;
 }
 
 .icon {
@@ -324,7 +365,7 @@
 .value {
   color: var(--neutral-color-font-regular, #606266);
   text-align: center;
-  font: var(--regular-body, 400 14px/22px "Noto Sans SC", sans-serif);
+  font: var(--regular-body, 400 14px/22px "Noto Sans SC");
   position: relative;
   align-self: stretch;
   flex: 1;
@@ -342,7 +383,7 @@
 ._20-0002 {
   color: #e95390;
   text-align: left;
-  font: 700 20px "Pretendard", sans-serif;
+  font: 700 20px "Pretendard";
   position: relative;
 }
 
@@ -353,19 +394,20 @@
   justify-content: space-between;
   width: 100%;
   position: relative;
+  margin-bottom: 55px;
 }
 
 ._1 {
   color: #000000;
   text-align: left;
-  font: 700 14px "Pretendard", sans-serif;
+  font: 700 14px "Pretendard";
   position: relative;
 }
 
 ._22-000 {
   color: #000000;
   text-align: left;
-  font: 400 14px "Pretendard", sans-serif;
+  font: 400 14px "Pretendard";
   position: relative;
 }
 
@@ -396,7 +438,7 @@
 .class5 {
   color: #e95390;
   text-align: left;
-  font: 700 12px "Pretendard", sans-serif;
+  font: 700 12px "Pretendard";
   position: relative;
 }
 
@@ -411,6 +453,7 @@
   height: 32px;
   position: relative;
   box-shadow: 0px 4px 4px 0px rgba(233, 83, 144, 0.07);
+  cursor: pointer;
 }
 
 .frame-104 {
@@ -424,13 +467,15 @@
   justify-content: center;
   width: 100%;
   height: 44px;
+  cursor: pointer;
 }
 
 .class6 {
   color: #ffffff;
-  text-align: left;
-  font: 700 16px "Pretendard", sans-serif;
+  text-align: center;
+  font: 700 16px "Pretendard";
   position: relative;
+  width: max-content;
 }
 
 .frame-23 {
@@ -496,7 +541,7 @@
 .class7 {
   color: #ffffff;
   text-align: left;
-  font: 600 20px/100% "Pretendard", sans-serif;
+  font: 600 20px/100% "Pretendard";
   position: absolute;
   left: calc(50% - 128px);
   top: 8.45px;
@@ -509,12 +554,12 @@
 
 .ph-span {
   color: #000000;
-  font: 900 48px/150% "Pretendard", sans-serif;
+  font: 900 48px/150% "Pretendard";
 }
 
 .ph-span2 {
   color: #e95390;
-  font: 300 32px/150% "Pretendard", sans-serif;
+  font: 300 32px/150% "Pretendard";
 }
 
 .frame-22 {
@@ -537,11 +582,9 @@
 }
 
 .ryan-booth-r-fn-64-k-0-y-qr-i-unsplash-1 {
-  background: linear-gradient(
-    to left,
-    rgba(151, 151, 151, 0.77),
-    rgba(151, 151, 151, 0.77)
-  );
+  background: linear-gradient(to left,
+      rgba(151, 151, 151, 0.77),
+      rgba(151, 151, 151, 0.77));
   flex-shrink: 0;
   width: calc(100vw);
   height: 907px;
@@ -587,7 +630,7 @@
 .pink-goat-hair-treatment {
   color: #ffffff;
   text-align: left;
-  font: 400 64px/100% "Abhaya Libre ExtraBold", sans-serif;
+  font: 400 64px/100% "Abhaya Libre ExtraBold";
   position: absolute;
   left: 596px;
   top: 563px;
@@ -655,7 +698,7 @@
 .no {
   color: #e95390;
   text-align: center;
-  font: 400 16px/100% "Pretendard", sans-serif;
+  font: 400 16px/100% "Pretendard";
   position: absolute;
   left: 5px;
   top: 102px;
@@ -691,7 +734,7 @@
 .no2 {
   color: #e95390;
   text-align: center;
-  font: 400 16px/100% "Pretendard", sans-serif;
+  font: 400 16px/100% "Pretendard";
   position: absolute;
   left: 134px;
   top: 102px;
@@ -710,7 +753,7 @@
 .class8 {
   color: #e95390;
   text-align: center;
-  font: 700 36px/100% "Pretendard", sans-serif;
+  font: 700 36px/100% "Pretendard";
   position: relative;
 }
 
@@ -780,23 +823,20 @@
 
 ._9-span {
   color: #e95390;
-  font: 800 64px/150% "Pretendard", sans-serif;
+  font: 800 64px/150% "Pretendard";
 }
 
 ._9-span2 {
   color: #000000;
-  font: 700 48px/150% "Pretendard", sans-serif;
+  font: 700 48px/150% "Pretendard";
 }
 
 ._9-span3 {
   color: #000000;
-  font: 400 48px/150% "Pretendard", sans-serif;
+  font: 400 48px/150% "Pretendard";
 }
 
 .frame-33 {
-  /* display: flex;
-  flex-direction: row;
-  gap: 61px; */
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -815,14 +855,14 @@
 .class10 {
   color: #000000;
   text-align: left;
-  font: 700 28px/150% "Pretendard", sans-serif;
+  font: 700 28px/150% "Pretendard";
   position: relative;
 }
 
 .class11 {
   color: #000000;
   text-align: left;
-  font: 400 20px/150% "Pretendard", sans-serif;
+  font: 400 20px/150% "Pretendard";
   position: relative;
   width: 400px;
 }
@@ -878,7 +918,7 @@
   left: 35%;
   color: #e95390;
   text-align: center;
-  font: 300 36px/100% "Saira ExtraCondensed", sans-serif;
+  font: 300 36px/100% "Saira ExtraCondensed";
 }
 
 ._98 {
@@ -887,7 +927,7 @@
   left: 38%;
   color: #e95390;
   text-align: center;
-  font: 300 36px/100% "Saira ExtraCondensed", sans-serif;
+  font: 300 36px/100% "Saira ExtraCondensed";
 }
 
 .frame-310 {
@@ -919,14 +959,14 @@
 ._300 {
   color: #ffffff;
   text-align: left;
-  font: 600 20px/100% "Pretendard", sans-serif;
+  font: 600 20px/100% "Pretendard";
   position: relative;
 }
 
 ._3002 {
   color: #e95390;
   text-align: left;
-  font: 800 40px/120% "Pretendard", sans-serif;
+  font: 800 40px/120% "Pretendard";
   position: relative;
 }
 
@@ -1012,7 +1052,7 @@
 .class14 {
   color: #ffffff;
   text-align: left;
-  font: 600 20px/100% "Pretendard", sans-serif;
+  font: 600 20px/100% "Pretendard";
   position: relative;
 }
 
@@ -1057,11 +1097,9 @@
 .frame-49 {
   height: 706px;
   padding: 80px 164px;
-  background: linear-gradient(
-    154deg,
-    rgba(233, 83, 144, 0) -30.51%,
-    rgba(233, 83, 144, 0.2) 255.5%
-  );
+  background: linear-gradient(154deg,
+      rgba(233, 83, 144, 0) -30.51%,
+      rgba(233, 83, 144, 0.2) 255.5%);
 }
 
 .frame-482 {
@@ -1074,7 +1112,7 @@
 .text-svg {
   color: #000000;
   text-align: left;
-  font: 700 36px/130% "Pretendard", sans-serif;
+  font: 700 36px/130% "Pretendard";
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1202,17 +1240,17 @@
 
 ._300-span {
   color: #e95390;
-  font: 700 40px/120% "Pretendard", sans-serif;
+  font: 700 40px/120% "Pretendard";
 }
 
 ._300-span2 {
   color: #000000;
-  font: 400 40px/120% "Pretendard", sans-serif;
+  font: 400 40px/120% "Pretendard";
 }
 
 ._300-span3 {
   color: #000000;
-  font: 700 64px/120% "Pretendard", sans-serif;
+  font: 700 64px/120% "Pretendard";
 }
 
 .image-11 {
@@ -1412,4 +1450,38 @@
 
 .footer .bottom {
   margin-top: 43px;
+}
+
+.main-policy {
+  width: calc(100vw);
+}
+
+.vector-74 {
+  width: 100%;
+  height: 1px;
+  background-color: #FFEFEF;
+}
+
+.scrolling_purchase {
+  background-color: #ffffff;
+  width: calc(100vw);
+  position: fixed;
+  z-index: 20;
+  bottom: 0;
+  left: 0;
+  filter: drop-shadow(0px -1px 15px rgba(183, 183, 183, 0.14));
+}
+
+.scrolling_purchase .container {
+  padding: 45px 200px 50px 200px;
+  margin: 0 auto;
+}
+
+.scrolling_purchase .container .frame-102 {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.scrolling_purchase .container .frame-104 {
+  padding: 0;
 }
