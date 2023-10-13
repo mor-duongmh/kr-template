@@ -215,6 +215,7 @@
   font-weight: 700;
   line-height: 22px;
 }
+
 #option {
   position: absolute;
   top: 220%;
@@ -230,7 +231,8 @@
   display: none;
   width: 136px;
 }
-#option div {
+
+#option a {
   cursor: pointer;
   width: 100%;
   display: flex;
@@ -242,12 +244,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
 }
-#option div:nth-child(2) {
+
+#option a:nth-child(2) {
   border: 1px solid #b9e0e0;
   border-right: unset;
   border-left: unset;
 }
+
 .tab-container {
   margin-top: 24px;
   width: 100%;
@@ -340,4 +345,5 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  text-decoration: none;
 }

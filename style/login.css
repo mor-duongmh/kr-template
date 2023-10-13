@@ -3,54 +3,65 @@
   src: url("./font/Pretendard-Thin.otf") format("opentype");
   font-weight: 100;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-ExtraLight.otf") format("opentype");
   font-weight: 200;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Light.otf") format("opentype");
   font-weight: 300;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Regular.otf") format("opentype");
   font-weight: 400;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Medium.otf") format("opentype");
   font-weight: 500;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-SemiBold.otf") format("opentype");
   font-weight: 600;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Bold.otf") format("opentype");
   font-weight: 700;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-ExtraBold.otf") format("opentype");
   font-weight: 800;
 }
+
 @font-face {
   font-family: Pretendard;
   src: url("./font/Pretendard-Black.otf") format("opentype");
   font-weight: 900;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: Pretendard;
 }
+
 a {
   color: unset;
   cursor: pointer;
@@ -60,16 +71,20 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 input,
 textarea {
   font-family: "Pretendard";
 }
+
 .d-flex {
   display: flex;
 }
+
 .pointer {
   cursor: pointer;
 }
+
 .pc {
   padding: 32px 200px;
   display: flex;
@@ -80,6 +95,7 @@ textarea {
 
 .pc .text {
   color: #e95390;
+  width: max-content;
 }
 
 .top .left {
@@ -91,37 +107,38 @@ textarea {
   align-items: center;
   position: relative;
 }
+
 .frame-3 .line {
   width: 1px;
   background: #e95390;
   height: 12px;
   margin: 0 12px;
 }
+
 .frame-3 .text {
   margin-left: 4px;
 }
+
 .main {
   padding: 237px 467px;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.74),
-      rgba(255, 255, 255, 0.74)
-    ),
+      rgba(255, 255, 255, 0.74)),
     url("./image/background-1.jpeg");
   background-size: cover;
   position: relative;
 }
+
 .main-0 {
   padding: 237px 467px;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.74),
-      rgba(255, 255, 255, 0.74)
-    ),
+      rgba(255, 255, 255, 0.74)),
     url("./image/background-2.jpeg");
   background-size: cover;
   position: relative;
 }
+
 .main-1 {
   padding: 114px 515px;
   background-color: #ffefef;
@@ -130,6 +147,7 @@ textarea {
   position: absolute;
   height: -webkit-fill-available;
 }
+
 .main-2 {
   padding: 72px 200px 132px 200px;
   background-color: #ffffff;
@@ -138,6 +156,7 @@ textarea {
   height: -webkit-fill-available;
   position: relative;
 }
+
 .main-3 {
   padding: 72px 200px 132px 200px;
   background-color: #ffffff;
@@ -146,6 +165,7 @@ textarea {
   height: -webkit-fill-available;
   position: relative;
 }
+
 #option {
   position: absolute;
   top: 220%;
@@ -161,7 +181,8 @@ textarea {
   display: none;
   width: 136px;
 }
-#option div {
+
+#option a {
   cursor: pointer;
   width: 100%;
   display: flex;
@@ -173,16 +194,20 @@ textarea {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
 }
-#option div:nth-child(2) {
+
+#option a:nth-child(2) {
   border: 1px solid #b9e0e0;
   border-right: unset;
   border-left: unset;
 }
+
 .bread-crumb {
   display: flex;
   gap: 16px;
 }
+
 .bread-crumb span {
   width: 1px;
   height: 10px;
@@ -190,6 +215,7 @@ textarea {
   display: flex;
   align-self: center;
 }
+
 .bread-crumb p {
   font-family: Pretendard;
   display: flex;
@@ -200,6 +226,7 @@ textarea {
   line-height: normal;
   align-self: center;
 }
+
 .frame-122 {
   display: flex;
   flex-direction: column;
@@ -235,6 +262,7 @@ textarea {
   margin-bottom: 48px;
   padding: 40px 47px 27px 47px;
 }
+
 .frame-125 {
   display: flex;
   flex-direction: column;
@@ -246,6 +274,7 @@ textarea {
   margin-bottom: 48px;
   padding: 40px 47px 38px 47px;
 }
+
 .frame-126 {
   width: 100%;
   display: flex;
@@ -256,6 +285,7 @@ textarea {
   flex-shrink: 0;
   background-color: #ffefef;
 }
+
 .frame-127 {
   width: 100%;
   display: flex;
@@ -266,17 +296,20 @@ textarea {
   flex-shrink: 0;
   padding: 124px 315px 0 315px;
 }
+
 .frame-127 .title {
   color: #fff;
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
+  /* 24px */
   letter-spacing: -0.32px;
   background-color: #000000;
   padding: 0 10px;
 }
+
 .frame-128 {
   width: 100%;
   display: flex;
@@ -285,6 +318,7 @@ textarea {
   justify-content: flex-start;
   flex-shrink: 0;
 }
+
 .frame-128 .header {
   display: flex;
   width: 100%;
@@ -293,6 +327,7 @@ textarea {
   margin-top: 51px;
   justify-content: space-between;
 }
+
 .frame-128 .header p {
   color: #000;
   font-size: 16px;
@@ -300,6 +335,7 @@ textarea {
   font-weight: 700;
   line-height: normal;
 }
+
 .frame-128 .header .left {
   color: #000;
   font-size: 14px;
@@ -307,6 +343,7 @@ textarea {
   font-weight: 400;
   line-height: normal;
 }
+
 .frame-128 .header .left span {
   color: #a66cff;
   font-size: 14px;
@@ -314,16 +351,19 @@ textarea {
   font-weight: 400;
   line-height: normal;
 }
+
 .frame-128 .bottom input {
   width: 48%;
   margin-top: unset !important;
 }
+
 .frame-128 .bottom {
   display: flex;
   align-items: center;
   padding: 17px 32px;
   border-bottom: 1px solid #e4e7ed;
 }
+
 .frame-128 .bottom-group {
   display: flex;
   align-items: center;
@@ -332,23 +372,28 @@ textarea {
   width: 100%;
   margin-bottom: 74px;
 }
+
 .frame-128 .button-group {
   display: flex;
   flex-wrap: nowrap;
 }
+
 .frame-128 .button {
   width: 50%;
   gap: 37px;
 }
+
 .frame-128 .button-2 {
   color: #e95390ba;
   background-color: #e4e7ed;
   border-radius: 16px;
 }
+
 .frame-128 .button-1 {
   line-height: 40px;
   margin-right: 37px;
 }
+
 .frame-129 {
   width: 100%;
   display: flex;
@@ -358,6 +403,7 @@ textarea {
   flex-shrink: 0;
   padding: 105px 0 140px 0;
 }
+
 .frame-129 .title {
   margin-bottom: 45px;
   width: 100%;
@@ -369,21 +415,25 @@ textarea {
   font-weight: 700;
   line-height: 22px;
 }
+
 .frame-129 .content {
   width: 100%;
   display: flex;
   gap: 66px;
 }
+
 .frame-129 .info {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .frame-129 .info .row {
   width: 100%;
   display: flex;
   gap: 20px;
 }
+
 .frame-129 .info .row .row-label {
   color: #c0c4cc;
   font-variant-numeric: lining-nums tabular-nums;
@@ -395,6 +445,7 @@ textarea {
   display: flex;
   align-items: center;
 }
+
 .frame-129 .info .row .detail {
   color: #303133;
   font-variant-numeric: lining-nums tabular-nums;
@@ -404,6 +455,7 @@ textarea {
   font-weight: 400;
   line-height: 100%;
 }
+
 .frame-129 .info .row .tag {
   color: #a66cff;
   font-family: Pretendard;
@@ -416,6 +468,7 @@ textarea {
   border-radius: 4px;
   border: 1px solid #d9ecff;
 }
+
 .checkmark {
   position: absolute;
   top: 0;
@@ -425,6 +478,7 @@ textarea {
   border-radius: 6px;
   border: 1px solid #000;
 }
+
 .checkmark:after {
   left: 9px;
   top: 5px;
@@ -436,6 +490,7 @@ textarea {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .radio label {
   display: block;
   position: relative;
@@ -448,12 +503,15 @@ textarea {
   width: 18px;
   margin-bottom: 2px;
 }
-label input:checked ~ .checkmark {
+
+label input:checked~.checkmark {
   background-color: #2196f3;
 }
-label input:checked ~ .checkmark:after {
+
+label input:checked~.checkmark:after {
   display: block;
 }
+
 .label {
   margin-right: 59px;
   width: 70px;
@@ -463,12 +521,14 @@ label input:checked ~ .checkmark:after {
   font-weight: 500;
   line-height: normal;
 }
+
 .input-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   width: 48%;
 }
+
 .pink-button {
   padding: 17px 10px;
   display: flex;
@@ -483,15 +543,19 @@ label input:checked ~ .checkmark:after {
   font-weight: 700;
   line-height: normal;
 }
+
 .input-wrapper input {
   width: 100%;
 }
+
 .input-wrapper input:first-child {
   width: 50%;
 }
+
 .description-4 {
   margin-bottom: 54px;
 }
+
 .description-4 p {
   display: flex;
   justify-content: center;
@@ -502,19 +566,23 @@ label input:checked ~ .checkmark:after {
   font-weight: 400;
   line-height: normal;
 }
+
 .button-link {
   color: #000;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px; /* 157.143% */
+  line-height: 22px;
+  /* 157.143% */
   text-decoration-line: underline;
   margin-top: 65px;
 }
+
 .frame-126 .vector-78 {
   margin: unset !important;
 }
+
 .step {
   color: #e95390;
   text-align: center;
@@ -524,6 +592,7 @@ label input:checked ~ .checkmark:after {
   line-height: normal;
   margin-top: -12px;
 }
+
 .frame-124 .vector-78 {
   margin-bottom: 20px;
 }
@@ -787,10 +856,12 @@ label {
   bottom: 0;
   width: 100%;
 }
+
 .footer-1 {
   position: unset !important;
   bottom: 0 !important;
 }
+
 .footer .right {
   color: #ffffff;
 }
@@ -823,4 +894,12 @@ label {
 
 .footer .bottom {
   margin-top: 43px;
+}
+
+.group-header {
+  justify-content: unset;
+  align-items: unset;
+}
+.frame-4{
+  cursor: pointer;
 }
