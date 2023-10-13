@@ -10,7 +10,7 @@
     <div class="pc">
       <div class="group-33">
         <div class="top d-flex">
-          <div class="left">
+          <div class="left pointer">
             <svg
               class="group2"
               width="46"
@@ -174,7 +174,7 @@
         </div>
       </div>
       <div class="frame-3 d-flex">
-        <div class="frame-4 d-flex">
+        <div class="frame-4 d-flex pointer" onclick="showDropDown()">
           <svg
             class="huge-icon-interface-outline-user"
             width="18"
@@ -190,6 +190,11 @@
           </svg>
 
           <div class="text">마이페이지</div>
+        </div>
+        <div id="option">
+          <div>개인정보 수정</div>
+          <div>주문현황 확인</div>
+          <div>내 장바구니</div>
         </div>
       </div>
     </div>
@@ -228,7 +233,7 @@
             </div>
             <div class="row">
               <p class="row-label">상태</p>
-              <p class="tag">배송완료</p>
+              <p class="tag pointer">배송완료</p>
             </div>
           </div>
         </div>
@@ -396,5 +401,15 @@
         </div>
       </div>
     </div>
+    <script>
+      function showDropDown() {
+        const el = document.getElementById("option");
+        if (el.style.display === "none") {
+          el.style.display = "block";
+        } else {
+          el.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
