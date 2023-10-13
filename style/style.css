@@ -1,3 +1,48 @@
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Thin.otf") format("opentype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Light.otf") format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Black.otf") format("opentype");
+  font-weight: 900;
+}
 .pc,
 .pc * {
   box-sizing: border-box;
@@ -30,7 +75,6 @@
 }
 
 .group-33 {
-
   width: 313px;
   height: 35px;
   position: relative;
@@ -493,9 +537,11 @@
 }
 
 .ryan-booth-r-fn-64-k-0-y-qr-i-unsplash-1 {
-  background: linear-gradient(to left,
-      rgba(151, 151, 151, 0.77),
-      rgba(151, 151, 151, 0.77));
+  background: linear-gradient(
+    to left,
+    rgba(151, 151, 151, 0.77),
+    rgba(151, 151, 151, 0.77)
+  );
   flex-shrink: 0;
   width: calc(100vw);
   height: 907px;
@@ -599,8 +645,6 @@
   inset: 0;
 }
 
-
-
 .group-12 {
   position: absolute;
   left: 0px;
@@ -636,7 +680,6 @@
   position: absolute;
   inset: 0;
 }
-
 
 .group-11 {
   position: absolute;
@@ -1014,7 +1057,11 @@
 .frame-49 {
   height: 706px;
   padding: 80px 164px;
-  background: linear-gradient(154deg, rgba(233, 83, 144, 0.00) -30.51%, rgba(233, 83, 144, 0.20) 255.5%);
+  background: linear-gradient(
+    154deg,
+    rgba(233, 83, 144, 0) -30.51%,
+    rgba(233, 83, 144, 0.2) 255.5%
+  );
 }
 
 .frame-482 {
@@ -1040,7 +1087,6 @@
   width: calc(40vw);
   /* align-items: flex-start;
   justify-content: flex-start; */
-
 }
 
 .group-47 {
@@ -1067,7 +1113,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 150%
+  line-height: 150%;
 }
 
 .class17 {
@@ -1140,7 +1186,7 @@
 }
 
 .img-step-1-text {
-  color: #FFF;
+  color: #fff;
   font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
@@ -1172,7 +1218,6 @@
 .image-11 {
   width: 589px;
   height: 578px;
-
 }
 
 .step-1-box-text_1 {
@@ -1196,7 +1241,7 @@
 }
 
 .step-1-box-text_hong {
-  color: #E95390;
+  color: #e95390;
 
   font-family: Pretendard;
   font-size: 64px;
@@ -1209,7 +1254,6 @@
   gap: 20px;
   display: flex;
   flex-direction: row;
-
 }
 
 .box-step-1_container {
@@ -1259,7 +1303,6 @@
 .step-2 {
   height: 1160px;
   width: calc(100vw);
-
 }
 
 .step-2-container {
@@ -1290,7 +1333,7 @@
 .step-2-item {
   width: 409px;
   height: 575px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 4px 8px 0px rgba(206, 206, 206, 0.25);
   padding: 24px 37px;
   display: flex;
@@ -1327,7 +1370,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%
+  line-height: 150%;
 }
 
 .footer {
@@ -1351,7 +1394,7 @@
   width: 100%;
   display: flex;
   gap: 12px;
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;

@@ -1,7 +1,55 @@
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Thin.otf") format("opentype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Light.otf") format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Pretendard;
+  src: url("./font/Pretendard-Black.otf") format("opentype");
+  font-weight: 900;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  font-family: Pretendard;
 }
 a {
   color: unset;
@@ -101,6 +149,7 @@ a {
   align-self: center;
 }
 .bread-crumb p {
+  font-family: Pretendard;
   display: flex;
   color: #000;
   font-size: 15px;
