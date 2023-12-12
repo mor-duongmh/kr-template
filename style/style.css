@@ -1523,4 +1523,6 @@
 .scrolling_purchase .container .frame-104 {
   padding: 0;
 }
-.test{}
+.test{
+  width: 100%;
+}
