@@ -347,10 +347,16 @@
   width: 100%;
   text-decoration: none;
 }
+
 .group-header {
   justify-content: unset;
   align-items: unset;
 }
-.frame-4{
+
+.frame-4 {
   cursor: pointer;
+}
+
+.test {
+  width: 100%
 }
